@@ -143,6 +143,35 @@ void ApplicationManager::UpdateInterface() const
 //Return a pointer to the interface
 GUI *ApplicationManager::GetGUI() const
 {	return pGUI; }
+
+
+CFigure** ApplicationManager::getFigList()
+{
+	return FigList;
+}
+int ApplicationManager::getFigCount()
+{
+	return FigCount;
+}
+
+void ApplicationManager::fillSelectedFig(color c)
+{
+
+
+	CFigure** list = getFigList();
+	int figCount = getFigCount();
+	for (int i = 0; i < figCount; i++)
+	{
+		if (list[i]->IsSelected())
+		{
+			list[i]->ChngFillClr(c);
+
+		}
+
+
+	}
+	UpdateInterface();
+}
 ////////////////////////////////////////////////////////////////////////////////////
 //Destructor
 ApplicationManager::~ApplicationManager()

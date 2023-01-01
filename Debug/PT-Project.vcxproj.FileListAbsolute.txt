@@ -5,3 +5,4 @@ E:\Courses\ITI\oop c++\project\CPP Project\Project Framework\Debug\PT Project.ex
 C:\Users\mosta\Desktop\paint project\Debug\PT Project.exe
 C:\Users\mosta\Desktop\backup\paint project\Debug\PT Project.exe
 F:\intake43\c and c++\c++ project\team\paint project\Debug\PT Project.exe
+C:\Users\mosta\Desktop\ayman\paint-for-kids\Debug\PT Project.exe
