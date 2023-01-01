@@ -6,3 +6,4 @@ C:\Users\mosta\Desktop\paint project\Debug\PT Project.exe
 C:\Users\mosta\Desktop\backup\paint project\Debug\PT Project.exe
 F:\intake43\c and c++\c++ project\team\paint project\Debug\PT Project.exe
 C:\Users\mosta\Desktop\ayman\paint-for-kids\Debug\PT Project.exe
+C:\Users\Nahla Gamal\Documents\Project\paint-for-kids\Debug\PT Project.exe

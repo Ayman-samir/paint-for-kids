@@ -1,11 +1,1 @@
-﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  ApplicationManager.cpp
-  ActionFillColor.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  main.cpp
-  ActionSelect.cpp
-  ActionAddSquare.cpp
-  ActionAddHex.cpp
-  ActionAddEllipse.cpp
-  PT-Project.vcxproj -> C:\Users\mosta\Desktop\ayman\paint-for-kids\Debug\PT Project.exe
+﻿  PT-Project.vcxproj -> C:\Users\Nahla Gamal\Documents\Project\paint-for-kids\Debug\PT Project.exe
