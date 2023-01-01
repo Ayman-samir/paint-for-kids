@@ -24,52 +24,61 @@ void ActionFillColor::Execute() {
 	{
 		//CFigure *c;
 		switch (s)
+
+
+
 		{
 		case RED1: {
 			pGUI->PrintMessage("the fill color set to RED");
 			pGUI->isfilled = true;
 			pGUI->setFillcolor(RED);
-			
-		
+			pManager->fillSelectedFig(RED);
+
+
 		}
 
-			break;
+				 break;
 		case GREEN2:
 		{
 			pGUI->PrintMessage("the fill color set to green");
 			pGUI->isfilled = true;
 			pGUI->setFillcolor(GREEN);
+			pManager->fillSelectedFig(GREEN);
 		}
-			break;
+		break;
 		case YELLOW3:
 		{
 			pGUI->PrintMessage("the fill color set to YELLOW");
 			pGUI->isfilled = true;
 			pGUI->setFillcolor(YELLOW);
+			pManager->fillSelectedFig(YELLOW);
 		}
-			break;
+		break;
 		case defaultcolor:
 		{
 			pGUI->PrintMessage("the fill color set to default");
 			pGUI->isfilled = false;
-			
+			pManager->fillSelectedFig(UI.BkGrndColor);
+
 		}
-			break;
+		break;
 		case BLUE5:
 		{
 			pGUI->PrintMessage("the fill color set to BLUE");
 			pGUI->isfilled = true;
 			pGUI->setFillcolor(BLUE);
+			pManager->fillSelectedFig(BLUE);
 		}
-			break;
+		break;
 		case EMPTYY:
 			break;
 		default:
-			
+
 			break;
 		}
 		pGUI->ClearColorMenu();
 	}
+	
 	
 }
 

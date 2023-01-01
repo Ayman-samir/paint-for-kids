@@ -38,7 +38,11 @@ public:
 		
 	// -- Interface Management Functions	
 	GUI *GetGUI() const; //Return pointer to the interface
+	CFigure** getFigList();
+	int getFigCount();
 	void UpdateInterface() const;	//Redraws all the drawing window	
+
+	void fillSelectedFig(color c);
 };
 
 #endif
